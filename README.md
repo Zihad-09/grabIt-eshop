@@ -1,16 +1,49 @@
-# React + Vite
+# 🛒 GrabIt: Your Next-Gen E-commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to **Grabit**, a modern, responsive, and feature-rich e-commerce frontend application. This project is built to showcase a high-quality, scalable, and beautifully designed user interface for online shopping.
 
-## React Compiler
+**[🔗 Live Demo](https://grabit-eshop.netlify.app/)**
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+* **⚡ Blazing Fast Performance:** Built on **React** for efficient component rendering and a smooth Single Page Application (SPA) experience.
+* **🎨 Stunning, Responsive UI:** Leveraging the power of **Tailwind CSS** for utility-first styling, ensuring a fully responsive design across all devices.
+* **🧩 Component Library Integration:** Utilizes **DaisyUI** to provide a massive library of pre-designed, accessible, and themeable components, speeding up development.
+* **🛣️ Seamless Navigation:** Client-side routing powered by **React Router** for fast, intuitive page transitions.
+* **🛒 Shopping Cart Logic:** Dedicated `context` management for handling global state, such as cart items and user authentication (structure included).
+* **📂 Organized Codebase:** Clear, maintainable folder structure with dedicated sections for `pages`, `components`, and `context`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+| Category | Technology | Version | Description |
+| :--- | :--- | :--- | :--- |
+| **Frontend Framework** | **React** | 18+ | A JavaScript library for building user interfaces. |
+| **Styling** | **Tailwind CSS** | Latest | A utility-first CSS framework for rapid custom design. |
+| **UI Components** | **DaisyUI** | Latest | A component plugin that adds beautiful, semantic classes to Tailwind. |
+| **Routing** | **React Router** | 6+ | Declarative routing for React applications. |
+| **Build Tool** | **Vite** | Latest | Next-generation frontend tooling for a fast development experience. |
+
+---
+
+## 📂 Project Structure
+
+The project follows a component-based architecture for excellent maintainability.
+Grabit/
+├── node_modules/
+├── public/                 # Static assets
+├── src/
+│   ├── assets/             # Images, icons, and fonts
+│   ├── components/         # Reusable UI parts (Navbar, ProductCard, Buttons)
+│   ├── context/            # Global state management (CartContext, AuthContext)
+│   ├── hooks/              # Custom React Hooks for reusable logic
+│   ├── pages/              # Main application views (Home, Products, Checkout)
+│   ├── services/           # API calls and data fetching logic
+│   ├── App.jsx             # Main routing component
+│   └── main.jsx            # Entry point
+├── tailwind.config.js      # Tailwind/DaisyUI Configuration
+└── package.json
