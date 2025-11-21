@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui";
+*{
+    font-family: "Poppins", sans-serif;
+}
+.cp{
+    color:#5caf90;
+}
+.ct{
+    color:gray;
+}
+.bcp{
+    background-color:#5caf90 ;
+}
+.ts{
+    color:gray;
+    font-size: 14px;
+}
