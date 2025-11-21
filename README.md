@@ -29,21 +29,3 @@ Welcome to **Grabit**, a modern, responsive, and feature-rich e-commerce fronten
 | **Build Tool** | **Vite** | Latest | Next-generation frontend tooling for a fast development experience. |
 
 ---
-
-## 📂 Project Structure
-
-The project follows a component-based architecture for excellent maintainability.
-Grabit/
-├── node_modules/
-├── public/                 # Static assets
-├── src/
-│   ├── assets/             # Images, icons, and fonts
-│   ├── components/         # Reusable UI parts (Navbar, ProductCard, Buttons)
-│   ├── context/            # Global state management (CartContext, AuthContext)
-│   ├── hooks/              # Custom React Hooks for reusable logic
-│   ├── pages/              # Main application views (Home, Products, Checkout)
-│   ├── services/           # API calls and data fetching logic
-│   ├── App.jsx             # Main routing component
-│   └── main.jsx            # Entry point
-├── tailwind.config.js      # Tailwind/DaisyUI Configuration
-└── package.json
